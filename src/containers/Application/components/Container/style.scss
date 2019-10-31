@@ -1,3 +1,39 @@
 .drag {
   -webkit-app-region: drag;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 0.75rem 1rem;
+}
+
+.title {
+  display: inline-block;
+  color: #ff5252;
+  font-size: 1.1em;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.action {
+  border: none;
+  margin-left: 0.6rem;
+  background:
+    linear-gradient(
+      to top left,
+      #cd0065 0%,
+      #ff5252 100%,
+    );
+  border-radius: 50%;
+  width: 1.4rem;
+  height: 1.4rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff00;
+}
+
+.action i {
+  font-size: 1em;
 }
