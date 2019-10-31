@@ -1,0 +1,57 @@
+.layout {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1.6rem;
+}
+
+.card {
+    padding: 1rem;
+    border-radius: 8px;
+    background-color: #ffffff09;
+}
+
+.tagTitle {
+    display: block;
+    margin-bottom: 0.1rem;
+    text-transform: uppercase;
+    font-size: 0.8em;
+    color: #ff5252;
+}
+
+.title {
+    display: block;
+    margin-bottom: 1.2rem;
+    text-transform: capitalize;
+    font-size: 1.2em;
+}
+
+.cardHeader {
+    margin-bottom: 0.5rem;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+    color: #ff5252;
+}
+
+.cardFooter {
+    margin-top: 2rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.button {
+    border: none;
+    margin-left: 1.2rem;
+    background:
+      linear-gradient(
+        to left,
+        #cd0065 0%,
+        #ff5252 100%,
+      );
+    border-radius: 2rem;
+    padding: 0.75rem 1rem;
+    color: #ffea62;
+    font-size: 0.9em;
+    text-transform: uppercase;
+    line-height: 0.7em;
+    font-weight: bold;
+  }

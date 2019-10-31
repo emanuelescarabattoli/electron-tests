@@ -1,14 +1,17 @@
 .drag {
   -webkit-app-region: drag;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding: 0.75rem 1rem;
+  display: flex;
+  height: 2.6rem;
+  padding: 0rem 1rem;
+  background-color: #ffffff04;
+  align-items: center;
+  justify-content: space-between;;
 }
 
 .title {
   display: inline-block;
-  color: #ff5252;
-  font-size: 1.1em;
+  color: #cccccc;
+  font-size: 1em;
 }
 
 .actions {
@@ -31,9 +34,59 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  color: #ffff00;
+  color: #ffea62;
 }
 
 .action i {
   font-size: 1em;
+}
+
+.window{
+  height: 100vh;
+}
+
+.wrapper {
+  display: grid;
+  grid-template-columns: 80px 1fr;
+  height: calc(100vh - 2.6rem);
+}
+
+.sidebarWrapper {
+  padding: 1.4rem 0 1.4rem 1.4rem;
+}
+
+.sidebar {
+  display: flex;
+  justify-content: center;
+  background:
+  linear-gradient(
+    to top,
+    #cd0065 0%,
+    #ff5252 100%,
+  );
+  padding: 1rem;
+  height: calc(100% - 2rem);
+  color: #ffea62;
+  border-radius: 8px;
+}
+
+.list {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.list li {
+  margin: 0 0 0.8rem 0;
+  padding: 0;
+}
+
+.list + .list {
+  padding-top: 1.2rem;
+  border-top: solid 1px #ffea6244;
+}
+
+.content {
+  padding: 1.4rem;
+  color: #cccccc;
 }
