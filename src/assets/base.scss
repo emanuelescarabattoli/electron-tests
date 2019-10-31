@@ -3,6 +3,7 @@
 html {
   background-color: #222222;
   font-family: "Varela Round";
+  user-select: none;
 }
 
 html,
@@ -10,4 +11,18 @@ body {
   margin: 0;
   padding: 0;
   height: 100vh;
+}
+
+::-webkit-scrollbar {
+   width: 20px;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 50px;
+  background-color: #333333;
+  box-shadow: inset 0 0 0 6px #222222;
+}
+
+::-webkit-scrollbar-track {
+  background-color: transparent;
 }

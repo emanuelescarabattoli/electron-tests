@@ -1,0 +1,16 @@
+.button {
+  border: none;
+  margin-left: 1.2rem;
+  background:
+    linear-gradient(
+      to left,
+      #cd0065 0%,
+      #ff5252 100%,
+    );
+  border-radius: 2rem;
+  padding: 0.75rem 1rem 0.65rem 1rem;
+  color: #ffea62;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: bold;
+}

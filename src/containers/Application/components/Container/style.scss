@@ -42,7 +42,8 @@
 }
 
 .window{
-  height: 100vh;
+  height: 100%;
+  overflow: hidden;
 }
 
 .wrapper {
@@ -70,6 +71,11 @@
   border-radius: 8px;
 }
 
+.sidebar a {
+  color: #ffea62;
+}
+
+
 .list {
   margin: 0;
   padding: 0;
@@ -89,4 +95,5 @@
 .content {
   padding: 1.4rem;
   color: #cccccc;
+  overflow: auto;
 }
