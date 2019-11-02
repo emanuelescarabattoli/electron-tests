@@ -64,7 +64,25 @@ const Demo = () => {
         </div>
       </div>
       <div>
-
+        <div className={style.messageWrapper}>
+          <div className={style.ribbon}>
+            <svg height="100" width="100">
+              <defs>
+                <linearGradient id="gradient" x1="0%" y1="100%" x2="100%" y2="0%">
+                  <stop offset="0%" stopColor="#cd0065" stopOpacity="1" />
+                  <stop offset="100%" stopColor="#ff5252" stopOpacity="1" />
+                </linearGradient>
+              </defs>
+              <polygon points="0 0, 0 10, 10 10" fill="#ff525277" strokeWidth="0" />
+              <polygon points="0 0, 70 70, 70 40, 30 0" fill="url(#gradient)" strokeWidth="0" />
+              <polygon points="60 60, 60 70, 70 70" fill="#ff525277" strokeWidth="0" />
+            </svg>
+            <span className={style.ribbonText}>YO Foo!</span>
+          </div>
+          <div>
+            Foo
+          </div>
+        </div>
       </div>
     </div>
   );
