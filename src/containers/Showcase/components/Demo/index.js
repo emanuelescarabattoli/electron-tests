@@ -66,7 +66,7 @@ const Demo = () => {
       <div>
         <div className={style.messageWrapper}>
           <div className={style.ribbon}>
-            <svg height="100" width="100">
+            <svg height="100" width="70">
               <defs>
                 <linearGradient id="gradient" x1="0%" y1="100%" x2="100%" y2="0%">
                   <stop offset="0%" stopColor="#cd0065" stopOpacity="1" />
@@ -80,7 +80,28 @@ const Demo = () => {
             <span className={style.ribbonText}>YO Foo!</span>
           </div>
           <div>
-            Foo
+            <div className={style.header}>
+              <div className={style.headerAvatar}>
+                <i className="material-icons">account_circle</i>
+              </div>
+              <div className={style.headerContent}>
+                <span className={style.headerTitle}>Hi! How are you?</span>
+                <span className={style.headerSubtitle}>2019-01-01 04:01 PM</span>
+              </div>
+            </div>
+            <div className={style.content}>
+              <p>
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              </p>
+            </div>
+            <div className={style.actionsWrapper}>
+              <ul className={style.actions}>
+                <li><i className="material-icons">forward</i></li>
+                <li><i className="material-icons">delete</i></li>
+                <li><i className="material-icons">archive</i></li>
+                <li><i className="material-icons">reply</i></li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

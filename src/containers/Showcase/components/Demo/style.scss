@@ -94,7 +94,7 @@
 .ribbon {
     position: absolute;
     top: -10px;
-    right: -40px;
+    right: -10px;
 }
 
 .ribbonText {
@@ -107,4 +107,67 @@
     left: 18px;
     font-weight: bold;
     text-shadow: 0 1px 1px #00000022;
+}
+
+.header {
+    display: grid;
+    grid-template-columns: 2.8rem 1fr;
+    grid-gap: 0.5rem;
+}
+
+.headerAvatar {
+   display: flex;
+   align-items: flex-start;
+   justify-content: center;
+}
+
+.headerAvatar i {
+    font-size: 2.8rem;
+ }
+
+.headerContent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.headerTitle {
+    display: block;
+    font-size: 1rem;
+}
+
+.headerSubtitle {
+    margin-top: 0.2rem;
+    padding-left: 0.05rem;
+    display: block;
+    font-size: 0.68rem;
+    opacity: 0.6;
+}
+
+.content {
+    font-size: 0.9rem;
+    line-height: 1.2rem;
+}
+
+.actionsWrapper {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.actions {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+}
+
+.actions li {
+    display: inline-block;
+    margin: 0 0 0 0.6rem;
+    padding: 0;
+}
+
+.actions li i {
+    color: #ff5252;
 }
